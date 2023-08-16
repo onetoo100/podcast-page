@@ -1,13 +1,11 @@
+import logo from "../assets/logo.svg";
+
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="contenedor footer-grid">
         <div className="footer-widget">
-          <img
-            className="logo"
-            src="src/assets/logo.svg"
-            alt="logo podcast fm"
-          />
+          <img className="logo" src={logo} alt="logo podcast fm" />
         </div>
 
         <div className="footer-widget">
