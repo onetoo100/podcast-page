@@ -1,9 +1,11 @@
+import image from "../assets/imagen_podcast.svg";
+
 const Container = () => {
   return (
     <section className="contenedor seccion">
       <div className="crea-grid">
         <div className="imagen">
-          <img src="src/assets/imagen_podcast.svg" alt="imagen podcast" />
+          <img src={image} alt="imagen podcast" />
         </div>
         <div className="contenido">
           <h2>Crea tu Podcast</h2>

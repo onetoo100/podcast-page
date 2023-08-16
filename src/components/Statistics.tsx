@@ -1,3 +1,5 @@
+import image from "../assets/grafica.svg";
+
 const Statistics = () => {
   return (
     <section className="estadisticas seccion contenedor">
@@ -7,7 +9,7 @@ const Statistics = () => {
         Podcast, Spotify, Apple Podcast y YouTube.
       </p>
 
-      <img src="src/assets/grafica.svg" alt="grafica imagen" />
+      <img src={image} alt="grafica imagen" />
     </section>
   );
 };

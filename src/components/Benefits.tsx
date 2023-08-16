@@ -1,3 +1,5 @@
+import image from "../assets/podcast_cover.png";
+
 const Benefits = () => {
   return (
     <section className="beneficios seccion">
@@ -13,7 +15,7 @@ const Benefits = () => {
         </div>
 
         <div className="imagen">
-          <img src="src/assets/podcast_cover.png" alt="imagen podcast" />
+          <img src={image} alt="imagen podcast" />
         </div>
       </div>
     </section>
