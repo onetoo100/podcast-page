@@ -1,9 +1,11 @@
+import logo from "../assets/logo.svg";
+
 const Header = () => {
   return (
     <header className="site-header">
       <div className="contenedor header-grid">
         <div className="logo">
-          <img src="src/assets/logo.svg" alt="logo podcast app" />
+          <img src={logo} alt="logo podcast app" />
         </div>
 
         <div className="contenido-header">
